@@ -1,0 +1,36 @@
+# Android Studio / IntelliJ IDEA
+*.iml
+/.idea
+/out
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle 构建与缓存
+.gradle
+/build
+/app/build
+.kotlin
+
+# 本地环境配置（包含SDK路径，严禁提交！）
+/local.properties
+
+# 签名文件与密钥（严禁提交！）
+*.jks
+*.keystore
+*.signing
+**/keystore.properties
+**/secrets.properties
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db

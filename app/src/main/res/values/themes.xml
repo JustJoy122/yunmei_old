@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 应用外壳主题：只负责窗口背景与无 ActionBar，界面由 Compose 绘制。 -->
+    <style name="Theme.YunMei" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
